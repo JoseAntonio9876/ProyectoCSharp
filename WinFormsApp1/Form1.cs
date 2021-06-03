@@ -145,7 +145,7 @@ namespace WinFormsApp1
 
         private void dataGridView1_CellContentDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
-            DataGridViewRow fila = dtview.Rows[e.RowIndex];
+         
 
 
         }
