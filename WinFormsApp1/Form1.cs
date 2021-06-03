@@ -136,41 +136,11 @@ namespace WinFormsApp1
 
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            //Teniendo en cuenta que DataGridView1 es tu DataGridView.
-            int renglon;
-            //DataGridViewRow fila = dataGridView1.Rows[e.RowIndex];
-            renglon = e.RowIndex;
-            //Supongamos que tengo el campo nombre en mi DataGridView
-
-
-            /*
-            String nombre = Convert.ToString(fila.Cells["nombre"].Value);
-            //Ahi extrage el valor de la columna uno por ejemplo, de la misma forma tu lo haras para todos tus campos.
-            txtnombre.Text = nombre;
-            //Supongamos que tengo el campo nombre en mi DataGridView
-            String paterno = Convert.ToString(fila.Cells["paterno"].Value);
-            //Ahi extrage el valor de la columna uno por ejemplo, de la misma forma tu lo haras para todos tus campos.
-            txtapp.Text = paterno;*/
+          
         }
 
         private void dataGridView1_RowEnter(object sender, DataGridViewCellEventArgs e)
-        {/*
-            //Teniendo en cuenta que DataGridView1 es tu DataGridView.
-            DataGridViewRow fila = dataGridView1.Rows[e.RowIndex];
-
-            //Supongamos que tengo el campo nombre en mi DataGridView
-            String nombre = Convert.ToString(fila.Cells["nombre"].Value);
-            //Ahi extrage el valor de la columna uno por ejemplo, de la misma forma tu lo haras para todos tus campos.
-            txtnombre.Text = nombre;
-            //Supongamos que tengo el campo nombre en mi DataGridView
-            //Supongamos que tengo el campo nombre en mi DataGridView
-            String paterno = Convert.ToString(fila.Cells["Apellido_p"].Value);
-            //Ahi extrage el valor de la columna uno por ejemplo, de la misma forma tu lo haras para todos tus campos.
-            txtapp.Text = paterno;
-            String materno = Convert.ToString(fila.Cells["Apellido_m"].Value);
-            //Ahi extrage el valor de la columna uno por ejemplo, de la misma forma tu lo haras para todos tus campos.
-            txtxapm.Text = materno;*/
-
+        {
         }
 
         private void dataGridView1_CellContentDoubleClick(object sender, DataGridViewCellEventArgs e)
